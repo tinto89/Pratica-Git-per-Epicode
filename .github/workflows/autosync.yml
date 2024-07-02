@@ -1,8 +1,7 @@
 name: Auto sync your fork upstream
-  uses: rovast/sync-upstream-repo@v0.0.1
-  with:
-    upstream_repo: https://github.com/ColomboRiccardo/Pratica-Git-per-Epicode
-    upstream_branch: main
-    downstream_branch: main
-    # GitHub Bot token
-    token: ${{ secrets. GITHUB_TOKEN }}
+uses: rovast/sync-upstream-repo@v0.0.1
+with:
+upstream_repo: https://github.com/ColomboRiccardo/Pratica-Git-per-Epicode
+upstream_branch: main
+downstream_branch: main
+token: ${{ secrets. GITHUB_TOKEN }}
