@@ -11,8 +11,6 @@ runs-on: ubuntu-latest
 
 steps:
 uses: actions/checkout@v4
-
-  name: Auto sync your fork upstream
  
   uses: rovast/sync-upstream-repo@v0.0.1
   with:
